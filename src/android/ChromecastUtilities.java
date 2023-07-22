@@ -770,6 +770,7 @@ final class ChromecastUtilities {
                 if (device != null) {
                     obj.put("isNearbyDevice", !device.isOnLocalNetwork());
                     // obj.put("isCastGroup", route instanceof MediaRouter.RouteGroup);
+                    obj.put("isCastGroup", false);
                 }
 
                 routesArray.put(obj);
